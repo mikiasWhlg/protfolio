@@ -1,5 +1,5 @@
 import React from "react";
-import uo_gondar from "../assets/uo_gondar.png";
+import logo512 from "../assets/portfolio/logo512.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -12,7 +12,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-           I am Systems Student
+             I love working with react and tailwind
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I am a begginner software devoloper
@@ -37,7 +37,7 @@ const Home = () => {
 
         <div>
           <img
-            src={uo_gondar}
+            src={logo512}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
